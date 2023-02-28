@@ -1,6 +1,6 @@
-ENV["RACK_ENV"] ||= "development"
+ENV['RACK_ENV'] ||= 'development'
 
 require 'bundler/setup'
-Bundler.require(:default, ENV["RACK_ENV"])
+Bundler.require(:default, ENV['RACK_ENV'])
 
-require_relative "../app/models/artist"
+require_relative '../app/models/artist'
